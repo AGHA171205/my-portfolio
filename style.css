@@ -1,0 +1,280 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    padding: 10px 20px;
+}
+@media (min-width:375px) and (max-width:768px){
+    .menu  {
+        display: none;
+    }
+
+    .hambuger{
+        width: 30px;
+        height: 3px;
+        margin: 3px;
+        
+    }   
+    .hambuger p {
+        margin: 5px;
+        border: 2px solid black; 
+
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .logo{
+        color: #36B37F;
+        font-size: 25px;
+        font-weight: bold;
+
+    }
+    .home{
+        background-image: url('/assets/images/background.png');
+        background-size: cover;
+        background-position: center;
+    }
+    .intro span{
+        color: #36B37F;
+    }
+
+    .intro h1{
+        text-align: center;
+        margin-top: 70px;
+        font-size: 35px;
+        font-weight: bold;
+        color: #172B4D;
+    }
+
+    .home_paragraph p{
+        font-size: 23px;
+        text-align: center;
+        color: #344563;
+        margin-top: 30px;
+    }
+    .social_links ul{
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        gap: 13px;
+        flex-direction: row;
+        align-items: center;
+        margin: 8px;
+    }
+    .scroller{
+        display: flex;
+        justify-content: center;
+        margin-top: 8px;
+
+    }
+    /* styling for projects section*/
+    .projects_header h2{
+        text-align: center;
+        margin-top: 20px;
+        font-weight: bold;
+        color: #172B4D;
+    }
+    .projects_header p{
+        padding: 1px 15px;
+        border-radius: 2px solid #36B37F;
+        background: #36B37F; 
+        height: 4px;
+        margin: 7px 140px 0px 140PX;
+    }
+    .projects{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+    .projects_cards{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        flex-direction: column;
+    }
+
+    .project_card{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+        border: 2px solid #36B37F;
+        width: 335px;
+        max-width: 335px;
+    }
+    .project_card_img{
+        padding: 100px;
+        background-color: #EBF0EE;
+        border-radius: 5px;
+    }
+    .project_card_title h3{
+        font-size: 25px;
+        margin: 10px 25px;
+        text-align: center;
+    }
+    .projec_card_lang ul{
+        display: flex;
+        gap: 5px;
+        list-style: none;
+    }
+
+    .projec_card_lang ul li{
+        font-size: 19px;
+        padding: 2px 5px;
+        background-color: #EBF0EE;
+        text-wrap: nowrap;
+        max-width: 330px;
+        border-radius: 5px;
+        color: #36B37F;
+    }
+    .project_card_btn button{
+        background-color: #36B37F;
+        color: #fff;
+        padding: 2px 5px;
+        border: none;
+        border-radius: 3px;
+        font-size: 19px;
+        margin: 10px 0px 20px 0px;
+    }
+    /*styling for about section*/
+
+    .about_card_icon{
+        display: flex;
+        justify-content: center;
+    }
+
+    .about_me{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .about_text{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .about_text_title h2{
+        text-align: center;
+        font-size: 30px;
+        color: #172B4D;
+        font-weight: bold;
+        margin: 15px;
+    }
+    .about_text_paragraph p{
+        font-size: 23px;
+        text-align: center;
+        color: #172B4D;
+    }
+    .about_text_button button{
+        background-color: #36B37F;
+        color: #fff;
+        padding: 5px 10px;
+        border: none;
+        border-radius: 3px;
+        font-size: 19px;
+        margin: 10px 0px 20px 0px;
+    }
+    .about_cards{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .about_card{
+        border: 1px solid grey;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 100px 0px 20px 0px;
+        width: 335px;
+        max-width: 335px;
+        background-color: #EBF0EE;
+        border-radius: 16px;
+    }
+    .about_card_lang{
+        padding: 10px 300px;
+        margin: 1px 200px;
+        /* border: 1px solid blue*/
+    }
+
+    .about_card_lang ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        list-style: none;
+        /* border: 1px solid red;*/
+        padding: 10px 250px;
+        width: 330px;
+    }
+    .about_card_lang ul li{
+        padding: 6px;
+        background-color: #fff;
+        text-wrap: nowrap;
+        width: 330px;
+        max-width: 330px;
+        color: #36B37F;
+        border-radius: 4px;
+    }
+    .about_paragraph{
+        font-size: 45px;
+        font-weight: bold;
+        text-align: center;
+        color: #344563;
+        margin: 10px 20px; 
+    }
+    form input{
+        padding: 15px 15px;
+        width: 335px;
+        border: 2px solid #EBF0EE;
+        margin: 4px;
+    }
+    textarea{
+        width: 335px;
+        padding: 50px;
+        border: 1px solid #36B37F;
+        border-radius: 5px;
+        margin: 4px;
+    }
+    form button{
+        background-color: #36B37F;
+        padding: 5px 10px;
+        font-size: 20px;
+        border-radius: 4px;
+        margin-top: 15px;
+        color: #fff;
+        margin: 15px 105px 18px 94px;
+        border: 1px solid #36B37F;
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    footer p{
+        font-weight: bold;
+        font-size: 22px;
+        color: #172B4D;
+        text-align: center;
+    }
+        
+}
+    
+    
+    
